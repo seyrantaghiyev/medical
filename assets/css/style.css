@@ -1,0 +1,479 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Jost', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+
+.container{
+
+    width: 100%;
+    max-width: 1440px;
+ 
+    
+}
+
+header{
+
+
+    display: flex;
+    justify-content: center;
+    background-color: #F5F5F5;
+  
+   
+}
+
+.head-section{
+
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(107.03deg, rgba(69, 99, 255, 0.075) 2.3%, rgba(248, 83, 221, 0.05) 136.36%);
+    
+    
+}
+
+.head-section nav .menu {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.head-section nav .menu li a{
+
+    font-size: 18px;
+    color: rgba(136, 136, 136, 1);
+
+}
+
+
+
+.logo-container{
+
+    flex: 1;
+    width: 195px;
+    height: 40px;
+}
+
+.logo-container img{
+
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.head-section nav{
+
+    width: 502px;
+    
+}
+
+.actions{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex: 1;
+
+}
+
+.img-settings{
+
+    width: 15px;
+    height: 15px;
+}
+
+.actions div{
+
+    border: 1px solid #6366F1;
+    width: 220px;
+    height: 50px;
+    display: flex;
+
+}
+
+.button-container{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #6366F1;
+    border-radius: 6px;
+    
+}
+
+.button-container a{
+
+    color: rgba(255, 255, 255, 1);
+}
+
+.button-container img{
+
+    width: 15px;
+    height: 16px;
+    color: rgba(255, 255, 255, 1);
+}
+
+
+
+.head-section .menu li :hover  {
+    color: #6366F1;
+}
+
+
+.doctor{
+
+    padding-top: 50px;
+    display: flex;
+    height: 760px;
+    background: linear-gradient(107.03deg, rgba(69, 99, 255, 0.075) 2.3%, rgba(248, 83, 221, 0.05) 136.36%);
+    /* position: relative; */
+    
+}
+
+.health{
+
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    background-color: #F5F5F5;
+}
+
+.doctor-text{
+
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.nurse{
+
+   width: 830px;
+    background-size: cover;
+
+}
+
+.text-info{
+
+    width: 550px;
+    height: 430px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.text-info h1{
+
+    font-size: 70px;
+    font-weight: 400px;
+    color: #201F50;
+    text-transform: uppercase;
+}
+
+.text-info p{
+
+    font-size: 16px;
+    color: #888888;
+}
+
+.nurse img{
+
+    width:100%;
+   
+}
+
+.hillside{
+
+    width: 775px;
+    height: 195px;
+    display: flex;
+    box-shadow: 5px 40px 70px -40px rgba(0, 0, 0, 0.1);
+    /* position: absolute; */
+    top: 95%;
+    left: 15%;
+}
+
+.inner{
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 20px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+
+}
+
+.text-action{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    background-color: #FFFFFF;
+}
+
+.action-info{
+
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    background-color: forestgreen;
+    background-color: #FFFFFF;
+}
+   
+.card-info div img{
+
+    width: 40px;
+    height: 40px;
+}
+
+.card-info >div{
+
+    width: 234px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid #EEEEEE;
+    border-radius: 7px;
+    background: #FFFFFF;
+    box-shadow: 5px 40px 70px -40px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    box-shadow: 5px 40px 70px -40px rgba(0, 0, 0, 0.1);
+}
+
+.card-info .information{
+
+    width: 143px;
+    height: 43px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-info > div h6{
+
+    font-size: 12px;
+    color: #888888;
+}
+
+.card-info > div p{
+
+    font-size: 14px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.text-action #book {
+
+    width: 134px;
+    height: 62px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 600px;
+    color: #000000;
+}
+
+.text-action .message span{
+
+    font-size: 14px;
+    color: #AAAAAA;
+}
+
+.text-action .button{
+
+    width: 120px;
+    height: 40px;
+    border: 1px solid #6366F1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6366F1;
+    border-radius: 5px;
+   
+}
+
+.text-action .button a{
+
+    color: #FFFFFF;
+}
+
+
+
+.item{
+
+ 
+    height: 634px;
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF;
+}
+
+.services{
+
+    display: flex;
+    justify-content: center;
+    background-color: #F5F5F5;
+}
+
+.item .inclusive{
+
+    width: 370px;
+    height: 337px;
+    background-color:#FCFCFC;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    margin-left: 10px;    
+
+}
+
+.inclusive .icon-item img{
+
+    width: 50px;
+    height: 60px;
+    object-fit: contain;
+    display: flex;
+    
+}
+
+.text-icon h3{
+
+    padding: 20px 0;
+}
+
+.text-icon div img{
+
+    width: 11px;
+    height: 13px;
+}
+
+.text-icon p{
+
+    padding-bottom: 20px;
+}
+
+.smiling-doctor{
+
+    display: flex;
+    justify-content: center;
+    background-color: #FFFFFF;
+}
+
+.doctor-item{
+
+    height: 730px;
+    background-color: aqua;
+    display: flex;
+}
+
+.doctor-left{
+
+    display: flex;
+    flex: 1;
+    background-color:#FFFFFF;
+    position: relative;
+}
+
+
+.doctor-right{
+
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    /* align-items: center; */
+    justify-content: center;
+    /* justify-items: center; */
+    background-color: #FFFFFF;
+}
+
+.function .function-text{
+
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column
+    
+}
+
+.ill-text{
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+    background-color: #FFFFFF;
+}
+
+.medical-service{
+
+    /* width: 570px; */
+    height: 210px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+    
+}
+
+.function-logo{
+
+    width: 70px;
+    height: 70px;
+}
+
+
+.function-logo img{
+
+    width: 100%;
+    object-fit: cover;
+}
+
+.function{
+
+    display: flex;
+}
+
+
+.doctor-left div {
+
+    width: 330px;
+    height: 450px;
+    
+
+}
+
+.doctor-left div img{
+
+    width: 100%;
+}
+
+
+.doctor-image-2{
+
+    position: absolute;
+    top: 200px;
+    left:100px
+}
+
+
+
+
+
